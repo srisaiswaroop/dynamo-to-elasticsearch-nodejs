@@ -10,6 +10,26 @@
     "type": "git",
     "url": "git+https://github.com/srisaiswaroop/dynamo-to-elasticsearch-nodejs.git"
   },
+  "keywords": [
+    "Dynamo to Elasticsearch trigger",
+    "DynamoDB",
+    "Elastic Search",
+    "Lambda",
+    "AWS dynamodb streams",
+    "AWS serverless",
+    "AWS streams",
+    "AWS",
+    "AWS Elasticsearch",
+    "AWS Dynamo",
+    "AWS ES",
+    "AWS Handler",
+    "AWS Blueprint",
+    "node js",
+    "javascript"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
   "author": "srisaiswaroop",
   "license": "GNU GPL v3",
   "bugs": {
