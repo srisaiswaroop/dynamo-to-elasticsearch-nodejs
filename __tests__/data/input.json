@@ -53,7 +53,7 @@
     },
     {
       "eventID": "7cbba0674f0d1cd072de4295359a1472",
-      "eventName": "DELETE",
+      "eventName": "REMOVE",
       "eventVersion": "1.1",
       "eventSource": "aws:dynamodb",
       "awsRegion": "us-west-2",
