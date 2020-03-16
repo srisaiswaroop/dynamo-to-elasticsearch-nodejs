@@ -1,0 +1,43 @@
+.idea
+.DS_Store
+*.iml
+*.zip
+*.log
+*.cache
+*.user
+package-lock.json
+.
+
+# distributables
+dist/
+
+# bin
+bin/
+
+# build
+build/
+
+# temporary
+tmp/
+
+# obj folder
+obj/
+
+# visual studio temp files
+.vs/
+.vscode
+
+# package directories
+node_modules
+jspm_packages
+
+
+# Serverless directories
+.serverless
+
+# istanbul
+coverage
+
+#karma generated stuff
+.com.google.Chrome.*
+ts-node

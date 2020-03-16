@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformEventToESBulk 1`] = `
+Array [
+  Object {
+    "index": Object {
+      "_id": "hashkeyuprimarykeyu",
+      "_index": "tablename",
+    },
+  },
+  Object {
+    "id": "primarykeyu",
+    "name": "Test U:new",
+    "tenantId": "hashkeyu",
+  },
+  Object {
+    "index": Object {
+      "_id": "hashkeycprimarykeyc",
+      "_index": "tablename",
+    },
+  },
+  Object {
+    "id": "primarykeyc",
+    "name": "Test C:new",
+    "tenantId": "hashkeyc",
+  },
+  Object {
+    "delete": Object {
+      "_id": "hashkeydprimarykeyd",
+      "_index": "tablename",
+    },
+  },
+]
+`;

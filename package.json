@@ -1,0 +1,34 @@
+{
+  "name": "dynamo-to-elasticsearch-nodejs",
+  "version": "1.0.0",
+  "description": "Lambda function that pushes data from dynamoDB to Elastic search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srisaiswaroop/dynamo-to-elasticsearch-nodejs.git"
+  },
+  "author": "srisaiswaroop",
+  "license": "GNU GPL v3",
+  "bugs": {
+    "url": "https://github.com/srisaiswaroop/dynamo-to-elasticsearch-nodejs/issues"
+  },
+  "homepage": "https://github.com/srisaiswaroop/dynamo-to-elasticsearch-nodejs#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.639.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.6.1"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Records": [
+    {
+      "eventID": "7cbba0674f0d1cd072de4295359a1472",
+      "eventName": "MODIFY",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-west-2",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1584295782,
+        "Keys": {
+          "tenantId": { "S": "hashkeyu" },
+          "id": { "S": "primarykeyu" }
+        },
+        "NewImage": {
+          "name": { "S": "Test U:new" },
+          "tenantId": { "S": "hashkeyu" },
+          "id": { "S": "primarykeyu" }
+        },
+        "OldImage": {
+          "name": { "S": "Test U:old" },
+          "tenantId": { "S": "hashkeyu" },
+          "id": { "S": "primarykeyu" }
+        },
+        "SequenceNumber": "1644101600000000013767933012",
+        "SizeBytes": 1426,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-west-2:123456789012:table/tableName/stream/2019-05-07T13:17:38.216"
+    },
+    {
+      "eventID": "7cbba0674f0d1cd072de4295359a1472",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-west-2",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1584295782,
+        "Keys": {
+          "tenantId": { "S": "hashkeyc" },
+          "id": { "S": "primarykeyc" }
+        },
+        "NewImage": {
+          "name": { "S": "Test C:new" },
+          "tenantId": { "S": "hashkeyc" },
+          "id": { "S": "primarykeyc" }
+        },
+        "SequenceNumber": "1644101600000000013767933012",
+        "SizeBytes": 1426,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-west-2:123456789012:table/tableName/stream/2019-05-07T13:17:38.216"
+    },
+    {
+      "eventID": "7cbba0674f0d1cd072de4295359a1472",
+      "eventName": "DELETE",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-west-2",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1584295782,
+        "Keys": {
+          "tenantId": { "S": "hashkeyd" },
+          "id": { "S": "primarykeyd" }
+        },
+        "OldImage": {
+          "name": { "S": "Test D:old" },
+          "tenantId": { "S": "hashkeyd" },
+          "id": { "S": "primarykeyd" }
+        },
+        "SequenceNumber": "1644101600000000013767933012",
+        "SizeBytes": 1426,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-west-2:123456789012:table/tableName/stream/2019-05-07T13:17:38.216"
+    }
+  ]
+}
