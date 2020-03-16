@@ -1,5 +1,5 @@
 # dynamo-to-elasticsearch-nodejs
-The missing blueprint for DynamoDB to Elastic search using DynamoDB streams and Elastic Bulk processing. Compatible with node 12.x and above. 
+Performance oriented node.js lambda handler for DynamoDB to Elastic search using DynamoDB streams. This module uses Bulk processing. Compatible with node 12.x and above. 
 
 ## Getting Started
 
