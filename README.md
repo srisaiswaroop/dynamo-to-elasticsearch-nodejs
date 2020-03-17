@@ -11,9 +11,11 @@ Use it in your lambda:
 ```javascript
 const DynamoToES = require('dynamo-to-elasticsearch-nodejs');
 
-const client = new DynamoToES({ node: process.env.ES_ENDPOINT });
-
-exports.handler = client.bulkHanlder;
+exports.handler = async function handler(event) {
+  const client = new DynamoToES({ node: process.env.ES_ENDPOINT });
+  const response = await client.bulkHandler(event);
+  return response;
+};
 ```
 _star_ this repository if it works as expected!!
 
