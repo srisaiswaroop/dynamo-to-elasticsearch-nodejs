@@ -1,6 +1,6 @@
 {
   "name": "dynamo-to-elasticsearch-nodejs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Performance oriented node.js lambda handler for DynamoDB to Elastic search using DynamoDB streams. This module uses Bulk processing. Compatible with node 12.x and above.",
   "main": "index.js",
   "scripts": {
